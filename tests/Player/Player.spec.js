@@ -25,9 +25,4 @@ describe( 'Player class', () => {
     expect( () => { new Player( '' ) } )
       .toThrow( 'A Player must not have an empty name given.' )
   } )
-
-  // it ( 'should not be possible to set Player.inPenaltyBox to anything other than a boolean', () => {
-  //   expect( () => { mike.inPenaltyBox = 'break me baby' } )
-  //     .toThrow( 'Value passed to property Player.inPenaltyBox must be of type Boolean.' )
-  // } )
 } )

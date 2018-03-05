@@ -138,15 +138,4 @@ describe( 'Game class', () => {
     game.addPlayer( 'Tom Cruise' )
     expect( game.isPlayable() ).toBe( true )
   } )
-
-  // it ( 'should be able to roll()', () => {
-  //   const spy = spyOn( console, 'log' )
-
-  //   createTopics()
-
-  //   game.addPlayer( 'Jesus' )
-  //   game.addPlayer( 'Michael' )
-
-  //   game.roll()
-  // } )
 } )
